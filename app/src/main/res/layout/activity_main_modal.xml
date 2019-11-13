@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageButton
+            android:id="@+id/closeBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@color/mb_transparent"
+            android:hapticFeedbackEnabled="false"
+            app:srcCompat="@android:drawable/ic_delete" />
+
+        <ImageView
+            android:id="@+id/scanFace"
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="15dp"
+            app:srcCompat="@mipmap/ic_launcher"
+            android:layout_below="@id/closeBtn"
+            android:layout_alignTop="@id/details"/>
+
+        <LinearLayout
+            android:id="@+id/details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_toRightOf="@id/scanFace"
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:layout_marginTop="5dp"
+            android:baselineAligned="true"
+            android:layout_below="@id/closeBtn">
+
+            <TextView
+                android:id="@+id/crnTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="14dp"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/fullnameTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="3dp"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/genderTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="3dp"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/bdateTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="3dp"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/addressTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="3dp"
+                android:text="TextView" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/nextBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/details"
+            android:background="@color/colorPrimary"
+            android:layout_marginTop="10dp"
+            android:text="Next" />
+
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: com.appliedrec.verid:core:1.14.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/28a7e7b5aa36152112c1ba7229cd36e2/core-1.14.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/28a7e7b5aa36152112c1ba7229cd36e2/core-1.14.2/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
